@@ -6,7 +6,7 @@ function mySqrt(x: number): number {
     while (start <= end){
         const avg = Math.floor((start + end) / 2)
 
-        const square = avg ** 2
+        const square = avg * avg
 
         if(square <= x){
             start = avg + 1
